@@ -1,0 +1,15 @@
+[package]
+name = "nif_identicon"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[lib]
+name = "nif_identicon"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustler = "0.25.0"
+base64 = "0.13.0"
+identicon-rs = "2.0.2"
